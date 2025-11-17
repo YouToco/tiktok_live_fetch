@@ -1,0 +1,17 @@
+[tool.uv.sources]
+pypi = { url = "https://pypi.org/simple" }
+
+[project]
+name = "tiktok-live-fetch"
+version = "0.1.0"
+description = "TikTok Live Stream Data Collector"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "selenium>=4.38.0",
+    "undetected-chromedriver>=3.5.5",
+    "setuptools>=80.0.0",
+    "flask>=3.1.0",
+    "flask-cors>=6.0.0",
+    "pillow>=11.0.0",
+]
